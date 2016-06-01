@@ -2,6 +2,7 @@ package com.example.zw.weather;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -33,10 +34,16 @@ public class MainActivity extends AppCompatActivity {
     private EditText cityname;
     private TextView content;
     private Button search;
+=======
+
+public class MainActivity extends AppCompatActivity {
+
+>>>>>>> 4d5b32815017a739c16f63b521fed01788dbf128
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 
         initView();
 
@@ -102,5 +109,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+=======
+>>>>>>> 4d5b32815017a739c16f63b521fed01788dbf128
     }
 }

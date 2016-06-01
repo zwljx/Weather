@@ -20,9 +20,15 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile files('src/main/res/libs/volley.jar')
     compile files('src/libs/volley.jar')
+=======
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+>>>>>>> 4d5b32815017a739c16f63b521fed01788dbf128
 }

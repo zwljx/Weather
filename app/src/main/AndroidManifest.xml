@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.zw.weather" >
+=======
+    package="com.example.zw.weather">
+>>>>>>> 4d5b32815017a739c16f63b521fed01788dbf128
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme" >
         <activity android:name=".MainActivity" >
+=======
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+>>>>>>> 4d5b32815017a739c16f63b521fed01788dbf128
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,5 +26,8 @@
         </activity>
     </application>
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+=======
+>>>>>>> 4d5b32815017a739c16f63b521fed01788dbf128
 </manifest>
